@@ -17,15 +17,15 @@ const Titulo = ({ cor, texto, children }) => {
 const App = () => {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Titulo cor="green" texto="Exercicios">
         de React
-      </Titulo> */}
+      </Titulo>
       {/* <Exercicio1 /> */}
       {/* <Exercicio2 /> */}
-      <Exercicio3 />
-      {/* <Form /> */}
-      {/* <Footer /> */}
+      {/* <Exercicio3 /> */}
+      <Form />
+      <Footer />
     </>
   );
 };
