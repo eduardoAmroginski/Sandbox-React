@@ -7,6 +7,7 @@ import Exercicio3 from "./Exercicios/Exercicio3/Exercicio3";
 import Exercicio4 from "./Exercicios/Exercicio4/Exercicio4";
 import Exercicio5 from "./Exercicios/Exercicio5/Exercicio5";
 import Exercicio6 from "./Exercicios/Exercicio6/Exercicio6";
+import Exercicio7 from "./Exercicios/Exercicio7/Exercicio7";
 
 //Exemplos
 import Header from "./Header";
@@ -32,6 +33,11 @@ import UseStateExemple4 from "./Exemplos/useState/UseStateExemple4";
 import UseStateExemple5 from "./Exemplos/useState/UseStateExemple5";
 import UseStateExemple6 from "./Exemplos/useState/UseStateExemple6";
 import UseStateExemple7 from "./Exemplos/useState/UseStateExemple7";
+import Input from "./Form/Input";
+import InputExemple from "./Exemplos/Formulários/Input/InputExemple";
+import FormExemple from "./Exemplos/Formulários/Input/FormExemple";
+import FormMultiFieldsExemple from "./Exemplos/Formulários/Input/FormMultiFieldsExemple";
+import FormObjectExemple from "./Exemplos/Formulários/Input/FormObjectExemple";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -52,7 +58,7 @@ const App = () => {
       {/* <Exercicio4 /> */}
       {/* <Exercicio5 /> */}
       {/* <Exercicio6 /> */}
-
+      <Exercicio7 />
       {/* ** Exemplos ** */}
 
       {/* <Header />
@@ -80,6 +86,11 @@ const App = () => {
       {/* <UseContextExemple /> */}
       {/* <CustomHook /> */}
 
+      {/* * Exemplos de Formulários * */}
+      {/* <InputExemple /> */}
+      {/* <FormExemple /> */}
+      {/* <FormMultiFieldsExemple /> */}
+      {/* <FormObjectExemple /> */}
       {/* <Form />
       <Footer /> */}
     </>
