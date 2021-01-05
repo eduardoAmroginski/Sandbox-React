@@ -1,4 +1,5 @@
 import React from 'react';
+import BtnLimpar from './BtnLimpar';
 import { GlobalContext } from './GlobalContext';
 
 const Produto = () => {
@@ -17,7 +18,8 @@ const Produto = () => {
     </div>
     )}
     </section>
-    <button onClick={global.limparDados} >Limpar dados</button>
+    {/* <button onClick={global.limparDados} >Limpar dados</button> */}
+    <BtnLimpar text="Limpar dados"/>
 
     </>
   );
