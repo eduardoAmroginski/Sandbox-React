@@ -38,6 +38,10 @@ import InputExemple from "./Exemplos/Formulários/Input/InputExemple";
 import FormExemple from "./Exemplos/Formulários/Input/FormExemple";
 import FormMultiFieldsExemple from "./Exemplos/Formulários/Input/FormMultiFieldsExemple";
 import FormObjectExemple from "./Exemplos/Formulários/Input/FormObjectExemple";
+import TextareaExemple from "./Exemplos/Formulários/Textarea/TextareaExemple";
+import SelectExemple from "./Exemplos/Formulários/Select/SelectExemple";
+import RadioExemple from "./Exemplos/Formulários/Radio/RadioExemple";
+import RadioExemple2 from "./Exemplos/Formulários/Radio/RadioExemple2";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -51,14 +55,14 @@ const App = () => {
   return (
     <>
       {/* ** Exercicos ** */}
-
       {/* <Exercicio1 /> */}
       {/* <Exercicio2 /> */}
       {/* <Exercicio3 /> */}
       {/* <Exercicio4 /> */}
       {/* <Exercicio5 /> */}
       {/* <Exercicio6 /> */}
-      <Exercicio7 />
+      {/* <Exercicio7 /> */}
+
       {/* ** Exemplos ** */}
 
       {/* <Header />
@@ -66,6 +70,7 @@ const App = () => {
         de React
       </Titulo> */}
 
+      {/* * Exemplos de useState * */}
       {/* <UseStateExemple /> */}
       {/* <UseStateExemple2 /> */}
       {/* <UseStateExemple3 /> */}
@@ -73,14 +78,20 @@ const App = () => {
       {/* <UseStateExemple5 /> */}
       {/* <UseStateExemple6 /> */}
       {/* <UseStateExemple7 /> */}
+
+      {/* * Exemplos de useEffect * */}
       {/* <UseEffectExemplo /> */}
       {/* <UseEffectExemplo2 /> */}
       {/* <UseEffectExemplo3 /> */}
       {/* <UseEffectExemplo4 /> */}
       {/* <UseEffectExemplo5 /> */}
+
+      {/* * Exemplos de useRef * */}
       {/* <UseRefExemple /> */}
       {/* <UseRefExemple2 /> */}
       {/* <UseRefExemple3 /> */}
+
+      {/* * Outros Exemplos * */}
       {/* <UseCallbackExemple /> */}
       {/* <UseMemoExemple /> */}
       {/* <UseContextExemple /> */}
@@ -91,6 +102,11 @@ const App = () => {
       {/* <FormExemple /> */}
       {/* <FormMultiFieldsExemple /> */}
       {/* <FormObjectExemple /> */}
+      {/* <TextareaExemple /> */}
+      {/* <SelectExemple /> */}
+      {/* <RadioExemple /> */}
+      <RadioExemple2 />
+
       {/* <Form />
       <Footer /> */}
     </>
