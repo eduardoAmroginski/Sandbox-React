@@ -42,6 +42,12 @@ import TextareaExemple from "./Exemplos/Formulários/Textarea/TextareaExemple";
 import SelectExemple from "./Exemplos/Formulários/Select/SelectExemple";
 import RadioExemple from "./Exemplos/Formulários/Radio/RadioExemple";
 import RadioExemple2 from "./Exemplos/Formulários/Radio/RadioExemple2";
+import CheckboxExemple from "./Exemplos/Formulários/Checkbox/CheckboxExemple";
+import CheckboxExemple2 from "./Exemplos/Formulários/Checkbox/CheckboxExemple2";
+import Exercicio8 from "./Exercicios/Exercicio8/Exercicio8";
+import FormComponentsExemple from "./Exemplos/Formulários/Componentes de formulário/FormComponentsExemple";
+import ValidationExemple from "./Exemplos/Formulários/Validacao/ValidationExemple";
+import UseFormExemple from "./Exemplos/useForm/UseFormExemple";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -62,6 +68,7 @@ const App = () => {
       {/* <Exercicio5 /> */}
       {/* <Exercicio6 /> */}
       {/* <Exercicio7 /> */}
+      {/* <Exercicio8 /> */}
 
       {/* ** Exemplos ** */}
 
@@ -105,7 +112,12 @@ const App = () => {
       {/* <TextareaExemple /> */}
       {/* <SelectExemple /> */}
       {/* <RadioExemple /> */}
-      <RadioExemple2 />
+      {/* <RadioExemple2 /> */}
+      {/* <CheckboxExemple /> */}
+      {/* <CheckboxExemple2 /> */}
+      {/* <FormComponentsExemple /> */}
+      {/* <ValidationExemple /> */}
+      <UseFormExemple />
 
       {/* <Form />
       <Footer /> */}
