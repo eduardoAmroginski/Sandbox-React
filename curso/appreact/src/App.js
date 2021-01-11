@@ -48,6 +48,7 @@ import Exercicio8 from "./Exercicios/Exercicio8/Exercicio8";
 import FormComponentsExemple from "./Exemplos/Formulários/Componentes de formulário/FormComponentsExemple";
 import ValidationExemple from "./Exemplos/Formulários/Validacao/ValidationExemple";
 import UseFormExemple from "./Exemplos/useForm/UseFormExemple";
+import Exercicio9 from "./Exercicios/Exercicio9/Exercicio9";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -69,6 +70,7 @@ const App = () => {
       {/* <Exercicio6 /> */}
       {/* <Exercicio7 /> */}
       {/* <Exercicio8 /> */}
+      <Exercicio9 />
 
       {/* ** Exemplos ** */}
 
@@ -117,7 +119,7 @@ const App = () => {
       {/* <CheckboxExemple2 /> */}
       {/* <FormComponentsExemple /> */}
       {/* <ValidationExemple /> */}
-      <UseFormExemple />
+      {/* <UseFormExemple /> */}
 
       {/* <Form />
       <Footer /> */}
