@@ -49,6 +49,9 @@ import FormComponentsExemple from "./Exemplos/Formulários/Componentes de formul
 import ValidationExemple from "./Exemplos/Formulários/Validacao/ValidationExemple";
 import UseFormExemple from "./Exemplos/useForm/UseFormExemple";
 import Exercicio9 from "./Exercicios/Exercicio9/Exercicio9";
+import CssImportExemple from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple";
+import CssImportExemple2 from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple2";
+import CssImportExemple3 from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple3";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -70,7 +73,7 @@ const App = () => {
       {/* <Exercicio6 /> */}
       {/* <Exercicio7 /> */}
       {/* <Exercicio8 /> */}
-      <Exercicio9 />
+      {/* <Exercicio9 /> */}
 
       {/* ** Exemplos ** */}
 
@@ -121,6 +124,11 @@ const App = () => {
       {/* <ValidationExemple /> */}
       {/* <UseFormExemple /> */}
 
+
+      {/* * Exemplos de CSS Import * */}
+      {/* <CssImportExemple /> */}
+      {/* <CssImportExemple2 /> */}
+      <CssImportExemple3 />
       {/* <Form />
       <Footer /> */}
     </>
