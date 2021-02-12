@@ -1,0 +1,19 @@
+.titulo,
+.preco {
+  color: #43c;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.comprar {
+  transform: rotate(90deg) translateY(-100px);
+}
+
+/* Não utilizar hífens "titulo-principal", usar camelCase */
+.tituloPrincipal {
+  color: red;
+}
+
+/* Funcionalidades Extras */

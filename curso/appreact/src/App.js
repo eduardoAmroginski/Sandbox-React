@@ -52,6 +52,14 @@ import Exercicio9 from "./Exercicios/Exercicio9/Exercicio9";
 import CssImportExemple from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple";
 import CssImportExemple2 from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple2";
 import CssImportExemple3 from "./Exemplos/Formas de usar o CSS/CSS Import/CssImportExemple3";
+import CssModulesExemple from "./Exemplos/Formas de usar o CSS/CSS Modules/CssModulesExemple";
+import CssStyledComponentsExemple from "./Exemplos/Formas de usar o CSS/CSS Styled Components/CssStyledComponentsExemple";
+import CssStyledComponentsExemple2 from "./Exemplos/Formas de usar o CSS/CSS Styled Components/CssStyledComponentsExemple2";
+import CssStyledComponentsExemple3 from "./Exemplos/Formas de usar o CSS/CSS Styled Components/CssStyledComponentsExemple3";
+import ExempleBootstrap5 from "./Exemplos/Formas de usar o CSS/CSS Frameworks/Exemple Bootstrap5/ExempleBootstrap5";
+import ExempleReactBootstrap from "./Exemplos/Formas de usar o CSS/CSS Frameworks/Exemple React-Bootstrap/ExempleReactBootstrap";
+import ExempleCssAnimation from "./Exemplos/Formas de usar o CSS/CSS Animações/Exemplo Animation/ExempleCssAnimation";
+import ExempleCssSlide from "./Exemplos/Formas de usar o CSS/CSS Animações/Exemplo Slide/ExempleCssSlide";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -128,7 +136,24 @@ const App = () => {
       {/* * Exemplos de CSS Import * */}
       {/* <CssImportExemple /> */}
       {/* <CssImportExemple2 /> */}
-      <CssImportExemple3 />
+      {/* <CssImportExemple3 /> */}
+
+      {/* * Exemplos CSS Modules * */}
+      {/* <CssModulesExemple /> */}
+
+      {/* * Exemplos CSS Styled Components  * */}
+      {/* <CssStyledComponentsExemple /> */}
+      {/* <CssStyledComponentsExemple2 /> */}
+      {/* <CssStyledComponentsExemple3 /> */}
+
+      {/* * Exemplos CSS Frameworks * */}
+      {/* <ExempleBootstrap5 /> */}
+      {/* <ExempleReactBootstrap /> */}
+
+      {/* * Exemplos CSS Animações * */}
+      {/* <ExempleCssAnimation /> */}
+      <ExempleCssSlide />
+      
       {/* <Form />
       <Footer /> */}
     </>
