@@ -60,6 +60,9 @@ import ExempleBootstrap5 from "./Exemplos/Formas de usar o CSS/CSS Frameworks/Ex
 import ExempleReactBootstrap from "./Exemplos/Formas de usar o CSS/CSS Frameworks/Exemple React-Bootstrap/ExempleReactBootstrap";
 import ExempleCssAnimation from "./Exemplos/Formas de usar o CSS/CSS Animações/Exemplo Animation/ExempleCssAnimation";
 import ExempleCssSlide from "./Exemplos/Formas de usar o CSS/CSS Animações/Exemplo Slide/ExempleCssSlide";
+import CssImagesExemple1 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple1";
+import CssImagesExemple2 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple2/CssImagesExemple2";
+import CssImagesExemple3 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple3/CssImagesExemple3";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -152,8 +155,12 @@ const App = () => {
 
       {/* * Exemplos CSS Animações * */}
       {/* <ExempleCssAnimation /> */}
-      <ExempleCssSlide />
+      {/* <ExempleCssSlide /> */}
       
+      {/* * Exemplos CSS Imagens * */}
+      {/* <CssImagesExemple1 /> */}
+      {/* <CssImagesExemple2 /> */}
+      <CssImagesExemple3 />
       {/* <Form />
       <Footer /> */}
     </>
