@@ -63,6 +63,10 @@ import ExempleCssSlide from "./Exemplos/Formas de usar o CSS/CSS Animações/Exe
 import CssImagesExemple1 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple1";
 import CssImagesExemple2 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple2/CssImagesExemple2";
 import CssImagesExemple3 from "./Exemplos/Formas de usar o CSS/CSS Imagens/CssImagesExemple3/CssImagesExemple3";
+import ReactRouterDomExemple1 from "./Exemplos/React Router/React Router Dom/ReactRouterDomExemple1";
+import LinkExemple1 from "./Exemplos/React Router/Link/LinkExemple1";
+import NavLinkExemple2 from "./Exemplos/React Router/Link/NavLinkExemple2";
+import UseNavigateExemple3 from "./Exemplos/React Router/Link/UseNavigateExemple3/UseNavigateExemple3";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -160,7 +164,15 @@ const App = () => {
       {/* * Exemplos CSS Imagens * */}
       {/* <CssImagesExemple1 /> */}
       {/* <CssImagesExemple2 /> */}
-      <CssImagesExemple3 />
+      {/* <CssImagesExemple3 /> */}
+
+
+      {/* * Exemplos React Router * */}
+      {/* <ReactRouterDomExemple1 /> */}
+      {/* <LinkExemple1 /> */}
+      {/* <NavLinkExemple2 /> */}
+      <UseNavigateExemple3 />
+
       {/* <Form />
       <Footer /> */}
     </>
