@@ -67,6 +67,7 @@ import ReactRouterDomExemple1 from "./Exemplos/React Router/React Router Dom/Rea
 import LinkExemple1 from "./Exemplos/React Router/Link/LinkExemple1";
 import NavLinkExemple2 from "./Exemplos/React Router/Link/NavLinkExemple2";
 import UseNavigateExemple3 from "./Exemplos/React Router/Link/UseNavigateExemple3/UseNavigateExemple3";
+import UseParamsExemple1 from "./Exemplos/React Router/useParams/UseParamsExemple1";
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -139,7 +140,6 @@ const App = () => {
       {/* <ValidationExemple /> */}
       {/* <UseFormExemple /> */}
 
-
       {/* * Exemplos de CSS Import * */}
       {/* <CssImportExemple /> */}
       {/* <CssImportExemple2 /> */}
@@ -160,19 +160,18 @@ const App = () => {
       {/* * Exemplos CSS Animações * */}
       {/* <ExempleCssAnimation /> */}
       {/* <ExempleCssSlide /> */}
-      
+
       {/* * Exemplos CSS Imagens * */}
       {/* <CssImagesExemple1 /> */}
       {/* <CssImagesExemple2 /> */}
       {/* <CssImagesExemple3 /> */}
 
-
       {/* * Exemplos React Router * */}
       {/* <ReactRouterDomExemple1 /> */}
       {/* <LinkExemple1 /> */}
       {/* <NavLinkExemple2 /> */}
-      <UseNavigateExemple3 />
-
+      {/* <UseNavigateExemple3 /> */}
+      <UseParamsExemple1 />
       {/* <Form />
       <Footer /> */}
     </>
