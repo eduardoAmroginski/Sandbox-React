@@ -1,0 +1,28 @@
+.customButtom{
+  color: black;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px
+}
+.customButtom:hover, .customButtom.active{
+  background-color: grey;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.customButtom:focus{
+  border: none;
+  outline: none;
+  background-color: grey;
+  box-shadow: none;
+}
+
+.active > button {
+  background-color: grey;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.containerImage {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 50px 0 0;
+}
+
+.customImage{
+  width: 100%;
+  object-fit: contain;
+}
