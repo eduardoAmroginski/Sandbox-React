@@ -1,0 +1,26 @@
+.cardBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc(80% / 3);
+  margin: 15px;
+}
+.cardImage{
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.cardTitle{
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.cardTitle:hover{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+

@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerImage{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.customImage{
+  width: 100%;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+}
+
+.containerInfos{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.price{
+  background-color: greenyellow;
+  max-width: fit-content;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.sold{
+  background-color: rgb(253, 91, 91);
+  max-width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.description{
+  color: black;
+}
