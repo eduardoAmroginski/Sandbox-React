@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Loading from '../../Components/Loading/Loading';
+import Head from '../../Components/Head';
 
 import styles from './Produto.module.css';
+
+import '../../src/Animation.css';
 
 const Produto = () => {
   const [data, setData] = useState(null);
@@ -24,16 +28,17 @@ const Produto = () => {
   }, []);
 
   if (loading) {
-    return <p>Carregando...</p>;
+    return <Loading />;
   }
 
   if (data) {
     return (
       <div className={styles.container}>
-        <div className={styles.containerImage}>
+        <Head title={data.nome} description={`Produto ${data.nome} : ${data.descricao}`} />
+        <div className={`animeLeft ${styles.containerImage}`}>
           {data.fotos.map((image, index) => (<img className={styles.customImage} key={index} src={image.src} alt={image.title} />))}
         </div>
-        <div className={styles.containerInfos}>
+        <div className={`animeLeft ${styles.containerInfos}`}>
           <h3 className={styles.title}>{data.nome}</h3>
           <span className={data.vendido === 'true' ? styles.sold : styles.price}>
             {data.vendido === 'true' ? 'Vendido' : `R$ ${data.preco}`}

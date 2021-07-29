@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import Head from '../../Components/Head';
 import Card from '../../Components/Card/Card';
+import Loading from '../../Components/Loading/Loading';
 
 import style from './Home.module.css';
 
@@ -25,7 +26,7 @@ const Home = () => {
   }, []);
 
   if (loading) {
-    return <p>Carregando...</p>;
+    return <Loading />;
   }
 
   if (products) {
