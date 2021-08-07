@@ -72,6 +72,7 @@ import NestedRoutesExemple1 from './Exemplos/React Router/Nested Routes/NestedRo
 import HeadExemple1 from './Exemplos/React Router/Head/Head/HeadExemple1';
 import HeadExemple2 from './Exemplos/React Router/Head/Helmet/HeadExemple2';
 import Exercicio10 from './Exercicios/Exercicio10/Exercicio10';
+import Exercicio10Corrigido from './Exercicios/Exercicio10-corrigido/src/Exercicio10Corrigido';
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -94,7 +95,8 @@ const App = () => {
       {/* <Exercicio7 /> */}
       {/* <Exercicio8 /> */}
       {/* <Exercicio9 /> */}
-      <Exercicio10 />
+      {/* <Exercicio10 /> */}
+      <Exercicio10Corrigido />
 
       {/* ** Exemplos ** */}
 
