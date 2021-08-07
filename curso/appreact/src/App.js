@@ -76,6 +76,9 @@ import Exercicio10Corrigido from './Exercicios/Exercicio10-corrigido/src/Exercic
 import PropTypesExemple1 from './Exemplos/MaisReact/PropTypes/PropTypesExemple1';
 import LazyEsuspenseExemple1 from './Exemplos/MaisReact/Lazy e Suspense/LazyEsuspenseExemple1';
 import MemoExample1 from './Exemplos/MaisReact/Memo/MemoExample1';
+import UseReducerExample1 from './Exemplos/MaisReact/UseReducer/UseReducerExample1';
+import UseReducerExample2 from './Exemplos/MaisReact/UseReducer/UseReducerExample2';
+import UseReducerExample3 from './Exemplos/MaisReact/UseReducer/UseReducerExample3';
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -189,7 +192,10 @@ const App = () => {
       {/* * Exemplos Mais React * */}
       {/* <PropTypesExemple1 /> */}
       {/* <LazyEsuspenseExemple1 /> */}
-      <MemoExample1 />
+      {/* <MemoExample1 /> */}
+      {/* <UseReducerExample1 /> */}
+      {/* <UseReducerExample2 /> */}
+      <UseReducerExample3 />
 
       {/* <Form />
       <Footer /> */}
