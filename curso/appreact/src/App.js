@@ -74,6 +74,7 @@ import HeadExemple2 from './Exemplos/React Router/Head/Helmet/HeadExemple2';
 import Exercicio10 from './Exercicios/Exercicio10/Exercicio10';
 import Exercicio10Corrigido from './Exercicios/Exercicio10-corrigido/src/Exercicio10Corrigido';
 import PropTypesExemple1 from './Exemplos/MaisReact/PropTypes/PropTypesExemple1';
+import LazyEsuspenseExemple1 from './Exemplos/MaisReact/Lazy e Suspense/LazyEsuspenseExemple1';
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -185,7 +186,8 @@ const App = () => {
       {/* <HeadExemple2 /> */}
 
       {/* * Exemplos Mais React * */}
-      <PropTypesExemple1 />
+      {/* <PropTypesExemple1 /> */}
+      <LazyEsuspenseExemple1 />
 
       {/* <Form />
       <Footer /> */}
