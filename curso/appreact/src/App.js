@@ -79,6 +79,7 @@ import MemoExample1 from './Exemplos/MaisReact/Memo/MemoExample1';
 import UseReducerExample1 from './Exemplos/MaisReact/UseReducer/UseReducerExample1';
 import UseReducerExample2 from './Exemplos/MaisReact/UseReducer/UseReducerExample2';
 import UseReducerExample3 from './Exemplos/MaisReact/UseReducer/UseReducerExample3';
+import ClassesExample1 from './Exemplos/MaisReact/Classes/ClassesExample1';
 
 const Titulo = ({ cor, texto, children }) => {
   return (
@@ -195,7 +196,8 @@ const App = () => {
       {/* <MemoExample1 /> */}
       {/* <UseReducerExample1 /> */}
       {/* <UseReducerExample2 /> */}
-      <UseReducerExample3 />
+      {/* <UseReducerExample3 /> */}
+      <ClassesExample1 />
 
       {/* <Form />
       <Footer /> */}
