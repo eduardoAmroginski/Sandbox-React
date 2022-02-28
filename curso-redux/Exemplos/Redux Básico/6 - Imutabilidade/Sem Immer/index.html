@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux</title>
+    <script src="./redux.min.js"></script>
+  </head>
+  <body>
+    <script>
+      const initialState = {
+        nome: "André",
+        sobre: {
+          dados: {
+            idade: 31,
+          },
+        },
+      };
+
+      // Forma Errada pois contem Mutabilidade e retorna o mesmo objeto.
+      // function reducer(state = initialState, action) {
+      //   switch (action.type) {
+      //     case "MUDAR_NOME":
+      //       state.nome = action.payload;
+      //       return state;
+      //     default:
+      //       return state;
+      //   }
+      // }
+
+      // Forma Correta pois contem Imutabilidade, retorna um novo objeto.
+      // Sem o Immer
+      const reducer = (state = initialState, action) => {
+        switch (action.type) {
+          case "MUDAR_NOME":
+            return { ...state, nome: action.payload };
+          case "MUDAR_IDADE":
+            return {
+              ...state,
+              sobre: {
+                ...state.sobre,
+                dados: {
+                  ...state.sobre.dados,
+                  idade: action.payload,
+                },
+              },
+            };
+          default:
+            return state;
+        }
+      };
+
+      const store = Redux.createStore(
+        reducer,
+        window.__REDUX_DEVTOOLS_EXTENSION__ &&
+          window.__REDUX_DEVTOOLS_EXTENSION__()
+      );
+
+      store.dispatch({ type: "MUDAR_NOME", payload: "Pedro" });
+      store.dispatch({ type: "MUDAR_NOME", payload: "João" });
+      store.dispatch({ type: "MUDAR_NOME", payload: "Tiago" });
+
+      // console.log(store.getState());
+    </script>
+  </body>
+</html>
