@@ -17,10 +17,10 @@ const initialState = {
 const reducer = immer.produce((state, action) => {
   switch (action.type) {
     case INCREMENTAR_TEMPO:
-      state.diasRestantes += 1;
+      state.diasRestantes++;
       break;
     case REDUZIR_TEMPO:
-      state.diasRestantes -= 1;
+      state.diasRestantes--;
       break;
     case MODIFICAR_EMAIL:
       state.email = action.payload;
