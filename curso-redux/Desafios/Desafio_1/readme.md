@@ -13,8 +13,8 @@ Crie uma store contendo os estados iniciais abaixo
 6. [x] aulas/RESETAR_CURSO, reseta todas as aulas completas
 7. [x] Crie constantes e action creators para as ações.
 8. [x] Crie um reducer para aluno e um para aulas.
-9. [ ] Renderize na tela o nome, email, tempo restante e o total de aulas completas
-10. [ ] Configure a DevTools
+9. [x] Renderize na tela o nome, email, tempo restante e o total de aulas completas
+10. [x] Configure a DevTools
 
 ```
 const aluno = {
