@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux - Organização com Ducks</title>
+    <script src="immer.min.js"></script>
+    <script src="redux.min.js"></script>
+  </head>
+  <body>
+    <h1 id="total"></h1>
+
+    <script type="module">
+      import store from "./store/configureStore.js";
+      import { incrementar, reduzir } from "./store/contador.js";
+
+      function render() {
+        const { contador } = store.getState();
+        const total = document.getElementById("total");
+        total.innerText = contador;
+      }
+      render();
+      store.subscribe(render);
+
+      store.dispatch(incrementar());
+      store.dispatch(incrementar());
+      store.dispatch(incrementar());
+      store.dispatch(reduzir());
+    </script>
+  </body>
+</html>
