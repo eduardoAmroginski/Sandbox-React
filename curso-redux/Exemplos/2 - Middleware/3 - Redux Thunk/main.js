@@ -17,7 +17,7 @@ function reducer(state = initialState, action) {
   }
 }
 
-const thunk = (state) => (next) => (action) => {
+const thunk = (store) => (next) => (action) => {
   if (typeof action === "function") {
     return action(store.dispatch, store.getState);
   }
