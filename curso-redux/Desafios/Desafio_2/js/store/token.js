@@ -34,23 +34,24 @@ export const tokenFetch = (body) => async (dispatch) => {
 //Initial State
 const initialState = {
   loading: false,
-  token: getLocalStorage("token", null),
+  data: getLocalStorage("token", null),
   error: null,
 };
 
 //Reducer
-const reducer = immer.produce((state, action) => {
+const token = immer.produce((state, action) => {
   switch (action.type) {
     case TOKEN_FETCH_STARTED:
       state = { ...state, loading: true };
       break;
     case TOKEN_FETCH_SUCCESS:
-      state = { loading: false, token: action.payload, error: null };
+      console.log("Payload: ", action.payload);
+      state = { loading: false, data: action.payload, error: null };
       break;
     case TOKEN_FETCH_ERROR:
-      state = { loading: false, error: action.payload, token: null };
+      state = { loading: false, error: action.payload, data: null };
       break;
   }
 }, initialState);
 
-export default reducer;
+export default token;

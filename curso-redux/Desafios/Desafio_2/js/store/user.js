@@ -36,7 +36,7 @@ const initialState = {
 };
 
 // Reducer
-const reducer = immer.produce((state, action) => {
+const user = immer.produce((state, action) => {
   switch (action.type) {
     case USER_FETCH_STARTED:
       state = { ...state, loading: true };
@@ -50,4 +50,4 @@ const reducer = immer.produce((state, action) => {
   }
 }, initialState);
 
-export default reducer;
+export default user;
