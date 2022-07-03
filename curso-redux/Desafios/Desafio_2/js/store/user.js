@@ -36,18 +36,17 @@ const initialState = {
 };
 
 // Reducer
-const user = immer.produce((state, action) => {
+function user(state = initialState, action) {
   switch (action.type) {
     case USER_FETCH_STARTED:
-      state = { ...state, loading: true };
-      break;
+      return { ...state, loading: true };
     case USER_FETCH_SUCCESS:
-      state = { data: action.payload, loading: false, error: null };
-      break;
+      return { data: action.payload, loading: false, error: null };
     case USER_FETCH_ERROR:
-      state = { data: null, loading: false, error: action.payload };
-      break;
+      return { data: null, loading: false, error: action.payload };
+    default:
+      return state;
   }
-}, initialState);
+}
 
 export default user;

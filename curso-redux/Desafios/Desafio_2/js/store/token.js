@@ -39,18 +39,17 @@ const initialState = {
 };
 
 //Reducer
-const token = immer.produce((state, action) => {
+function token(state = initialState, action) {
   switch (action.type) {
     case TOKEN_FETCH_STARTED:
-      state = { ...state, loading: true };
-      break;
+      return { ...state, loading: true };
     case TOKEN_FETCH_SUCCESS:
-      state = { loading: false, data: action.payload, error: null };
-      break;
+      return { data: action.payload, loading: false, error: null };
     case TOKEN_FETCH_ERROR:
-      state = { loading: false, error: action.payload, data: null };
-      break;
+      return { data: null, loading: false, error: action.payload };
+    default:
+      return state;
   }
-}, initialState);
+}
 
 export default token;
