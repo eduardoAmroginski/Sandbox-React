@@ -45,7 +45,6 @@ const token = immer.produce((state, action) => {
       state = { ...state, loading: true };
       break;
     case TOKEN_FETCH_SUCCESS:
-      console.log("Payload: ", action.payload);
       state = { loading: false, data: action.payload, error: null };
       break;
     case TOKEN_FETCH_ERROR:
